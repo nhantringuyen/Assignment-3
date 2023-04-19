@@ -1,0 +1,144 @@
+@media (max-width: 1199px){
+    /*-------------------banner----------*/
+    #banner{
+        height: 600px;
+    }
+    /*-------------------nav-bar----------*/
+    .avatar{
+        display: none;
+    }
+    #nav-bar .left, #nav-bar .right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #nav-bar a{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 15px 30px 15px 50px;
+    }
+    #nav-bar a:last-child{
+        border-right: 1px solid #eaeaea;
+    }
+    #nav-bar a i{
+        margin-right: 3px;
+        margin-left: 0;
+    }
+    #nav-bar a i:before{
+        margin-left: 0;
+    }
+    /*-------------------about----------*/
+    #about .container .row > div{
+        padding-top: 90px;
+    }
+    /*-------------------job-info----------*/
+    #job-info{
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    #job-info .container{
+        padding-left: 72px;
+        padding-right: 57px;
+    }
+    #job-info .row{
+        row-gap: initial;
+    }
+    #job-info .job-item{
+        height: auto;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        padding: 20px 30px 50px 28px;
+    }
+    .job-item .icon{
+        order: -1;
+        text-align: right;
+        padding-right: 20px;
+        margin-bottom: -37px;
+    }
+    #job-info .list-dots{
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    .list-favourite{
+        gap: 3px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    /*-------------------certificate----------*/
+    #certificate .item-cert{
+        display: block;
+    }
+    #certificate .item-cert .desc{
+        padding-left: 0;
+        padding-top: 5px;
+    }
+    /*-------------------project----------*/
+    .project-meta{
+        display: grid;
+        grid-template-columns: 55px 1fr;
+    }
+    .project-meta li:last-child{
+        grid-column: 2;
+        margin-top: -14px;
+    }
+    .project-table th{
+        width: 64px;
+    }
+    .list-item .item{
+        padding-left: 0 !important;
+    }
+    .list-item .icon, .list-item .num{
+        text-align: center;
+        float: initial;
+    }
+    .list-item .icon{
+        margin-left: 0 !important;
+    }
+    .list-item .item-h3{
+        margin-bottom: 5px;
+    }
+    /*-------------------detail cv goal----------*/
+    #project-goal .inner{
+        padding-bottom: 20px;
+    }
+    /*-------------------detail cv scope----------*/
+    #project-scopes{
+        order: 1;
+    }
+    #project-scopes .inner{
+        padding-bottom: 35px;
+    }
+    #list-scopes.row .scope-left .item-inner{
+        padding-right: 15px;
+    }
+    #list-scopes.row .scope-right .item-inner{
+        padding-left: 15px;
+    }
+    /*-------------------detail cv team----------*/
+    #project-team{
+        order: 2;
+    }
+    #project-team .inner{
+        padding-bottom: 47px;
+    }
+    /*-------------------detail cv primary----------*/
+    #project-primary{
+        order: 3;
+    }
+    #project-primary .inner{
+        padding-bottom: 45px;
+    }
+    /*-------------------detail cv timeline----------*/
+    #list-timeline .desc{
+        padding-left: 15px;
+    }
+    #list-timeline .num{
+        margin-left: 15px;
+        margin-bottom: 4px;
+    }
+    #list-timeline .item{
+        margin-bottom: 30px;
+    }
+    #project-timeline .inner{
+        padding-bottom: 50px;
+    }
+}

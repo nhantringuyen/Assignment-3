@@ -1,0 +1,658 @@
+@media (max-width: 767px){
+    body{
+        font-size: 25px;
+        letter-spacing: 1.2px;
+    }
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+    }
+    /*-------------------banner----------*/
+    #banner{
+        height: 1200px;
+    }
+    #banner h1 {
+        font-size: 66px;
+    }
+    /*-------------------nav-bar----------*/
+    #nav-bar{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #nav-bar .left, #nav-bar .right, #nav-bar a{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #nav-bar a{
+        justify-content: flex-end;
+        border: none;
+        padding: 20px 40px;
+    }
+    #nav-bar a:last-child{
+        border-right: 0;
+    }
+    /*-------------------about----------*/
+    #about .container .row > div{
+        padding: 190px 30px 90px;
+    }
+    #about .container .row > div p{
+        margin-bottom: 0;
+    }
+    .section-title {
+        font-size: 49px;
+    }
+    #about .section-title {
+        margin-bottom: 90px;
+    }
+    #personal-info .socials{
+        margin-bottom: 10px;
+        margin-top: 60px;
+        gap: 30px;
+    }
+    /*-------------------job-info----------*/
+    #job-info{
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    #job-info .container{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+    #job-info .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #job-info .row >div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #job-info .job-item{
+        grid-template-columns: 75% 25%;
+        margin-bottom: 50px;
+        padding: 100px 60px;
+        row-gap: 80px;
+    }
+    .job-item .icon{
+        order: initial;
+        margin-bottom: 0;
+    }
+    .job-item h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #job-info .list-dots{
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    .list-dots .year .current{
+        padding: 2px 15px;
+    }
+    .list-dots .item-content:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .list-dots .year{
+        font-size: 18px;
+    }
+    .list-favourite {
+        column-gap: 8px;
+        row-gap: 24px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+    .job-item .icon {
+        font-size: 91px;
+        padding-right: 0;
+    }
+    .list-dots .item-content:before{
+        left: -8px;
+        width: 16px;
+        height: 16px;
+    }
+    .list-dots .item-content{
+        padding-left: 60px;
+    }
+    .job-favourite .list-item{
+        grid-column: 1;
+    }
+    .list-favourite i{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 43px;
+    }
+    /*-------------------certificate----------*/
+    #certificate .container{
+        padding: 120px 20px 160px;
+    }
+    #certificate .section-title{
+        margin-bottom: 80px;
+        padding-left: 10px;
+    }
+    .item-cert h3{
+        font-size: 26px;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+    #certificate .item-cert:nth-child(2){
+        border-left: 0;
+    }
+    #certificate .item-cert{
+        border-bottom: 2px solid #e79b9b;
+        padding: 0 30px 50px;
+        margin-bottom: 80px;
+    }
+    #certificate .row:not(:last-child){
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+    #certificate .row:last-child .item-cert:last-child{
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    /*-------------------project----------*/
+    #project .container{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    #project .section-title{
+        margin-bottom: 145px;
+    }
+    .project-title {
+        padding: 36px 40px;
+        font-size: 25px;
+    }
+    .project-meta {
+        grid-template-columns: 1fr;
+        font-size: 20px;
+        line-height: 26px;
+        gap: 25px;
+        padding: 20px 40px;
+    }
+    .project-meta .year{
+        width: 106px;
+        height: 52px;
+        padding: 0;
+        text-align: center;
+        line-height: 52px;
+        border-radius: 22px;
+    }
+    .project-meta li:last-child {
+        grid-column: 1;
+        margin-top: 0;
+    }
+    .project-table td, .project-table th {
+        padding: 25px 20px 20px;
+        line-height: 39px;
+    }
+    /*-------------------footer----------*/
+    #footer .container {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    #footer .text{
+        display: none;
+    }
+    .list-socials{
+        gap: 45px;
+    }
+    .list-socials i{
+        font-size: 60px;
+        margin-right: 0;
+    }
+    /*-------------------detail cv----------*/
+    #detail-project{
+        letter-spacing: 0.5px;
+    }
+}
+@media (max-width: 600px){
+    body {
+        font-size: 23px;
+    }
+}
+@media (max-width: 575px){
+    body {
+        font-size: 22px;
+    }
+    .section-title {
+        font-size: 46px;
+    }
+    /*-------------------banner----------*/
+    #banner h1 {
+        font-size: 59px;
+    }
+    /*-------------------job-info----------*/
+    #job-info .job-item{
+        padding: 90px 56px;
+    }
+    .list-dots .item-content{
+        padding-left: 55px;
+    }
+    /*-------------------certificate----------*/
+    .item-cert h3 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 568px){
+    body {
+        font-size: 21px;
+    }
+    /*-------------------banner----------*/
+    #banner h1 {
+        font-size: 58px;
+    }
+    /*-------------------job-info----------*/
+    #job-info .job-item{
+        padding: 80px 50px;
+    }
+    .job-item h3 {
+        font-size: 27px;
+    }
+    /*-------------------certificate----------*/
+    .item-cert h3 {
+        font-size: 22px;
+    }
+    /*-------------------project----------*/
+    .project-title{
+        font-size: 23px;
+    }
+}
+@media (max-width: 480px){
+    body {
+        font-size: 19px;
+        letter-spacing: 0.7px;
+    }
+    .container{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .section-title {
+        font-size: 38px;
+    }
+    /*-------------------banner----------*/
+    #banner{
+        height: 900px;
+    }
+    #banner h1 {
+        font-size: 50px;
+    }
+    /*-------------------nav-bar----------*/
+    #nav-bar a{
+        padding: 10px 30px;
+    }
+    /*-------------------about----------*/
+    #about .container .row > div {
+        padding: 145px 23px 70px;
+    }
+    #about .section-title {
+        margin-bottom: 60px;
+    }
+    #personal-info .socials {
+        margin-bottom: 5px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    /*-------------------job-info----------*/
+    #job-info .job-item{
+        row-gap: 60px;
+        padding: 70px 45px;
+        margin-bottom: 35px;
+    }
+    #job-info .list-dots {
+        padding-top: 44px;
+    }
+    .list-dots .item-content {
+        padding-left: 45px;
+    }
+    .job-item h3 {
+        font-size: 23px;
+        margin-bottom: 7px;
+    }
+    .list-dots .item-content:not(:last-child) {
+        margin-bottom: 70px;
+    }
+    .job-item .icon {
+        font-size: 68px;
+    }
+    .list-dots .year {
+        font-size: 16px;
+    }
+    .list-favourite i {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        font-size: 32px;
+    }
+    .project-table td, .project-table th {
+        padding: 14px;
+        line-height: 28px;
+    }
+    /*-------------------certificate----------*/
+    #certificate .container {
+        padding-top: 90px;
+        padding-bottom: 125px;
+    }
+    #certificate .section-title{
+        margin-bottom: 60px;
+    }
+    #certificate .item-cert{
+        margin-bottom: 55px;
+        padding: 0 23px 35px;
+    }
+    .item-cert h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    /*-------------------project----------*/
+    #project .container {
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+    #project .section-title{
+        margin-bottom: 110px;
+    }
+    .project-title {
+        font-size: 19px;
+        padding: 28px 30px;
+    }
+    .project-meta{
+        font-size: 15px;
+        line-height: 21px;
+        gap: 18px;
+        padding: 14px 30px;
+    }
+    .project-meta .year {
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+    }
+    /*-------------------footer----------*/
+    #footer .container {
+        padding-top: 35px;
+        padding-bottom: 47px;
+    }
+    .list-socials {
+        gap: 30px;
+    }
+    .list-socials i {
+        font-size: 45px;
+    }
+}
+@media (max-width: 414px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    /*-------------------banner----------*/
+    #banner{
+        height: 775px;
+    }
+    #banner h1 {
+        font-size: 41px;
+    }
+    /*-------------------nav-bar----------*/
+    #nav-bar a {
+        padding: 10px 25px;
+    }
+    #about .container .row > div {
+        padding: 125px 20px 60px;
+    }
+    /*-------------------job-info----------*/
+    #job-info {
+        padding-top: 50px;
+    }
+    .job-item .icon {
+        font-size: 58px;
+    }
+    #job-info .job-item{
+        padding: 60px 40px;
+        row-gap: 50px;
+        margin-bottom: 30px;
+    }
+    #job-info .list-dots {
+        padding-top: 40px;
+    }
+    .list-dots .item-content{
+        padding-left: 40px;
+    }
+    .list-dots .year {
+        font-size: 12px;
+    }
+    .job-item h3 {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .list-dots .item-content:not(:last-child) {
+        margin-bottom: 60px;
+    }
+    .list-dots .item-content:before {
+        left: -5px;
+        width: 10px;
+        height: 10px;
+    }
+    .list-favourite{
+        row-gap: 10px;
+    }
+    .list-favourite i {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 27px;
+    }
+    /*-------------------certificate----------*/
+    #certificate .container {
+        padding: 80px 15px 100px;
+    }
+    #certificate .section-title {
+        margin-bottom: 50px;
+    }
+    #certificate .item-cert {
+        margin-bottom: 50px;
+        padding: 0 20px 30px;
+    }
+    .item-cert h3 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    /*-------------------project----------*/
+    #project .container {
+        padding-top: 95px;
+        padding-bottom: 60px;
+    }
+    .project-title {
+        padding: 23px 25px;
+        font-size: 17px;
+    }
+    .project-meta {
+        font-size: 13px;
+        line-height: 20px;
+        gap: 15px;
+        padding: 10px 25px;
+    }
+    #project .section-title {
+        margin-bottom: 90px;
+    }
+    .project-table td, .project-table th {
+        padding: 10px;
+        line-height: 26px;
+    }
+    /*-------------------footer----------*/
+    .list-socials i {
+        font-size: 40px;
+    }
+}
+@media (max-width: 384px) {
+    body {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    /*-------------------banner----------*/
+    #banner {
+        height: 719px;
+    }
+    #banner h1 {
+        font-size: 38px;
+    }
+    /*-------------------nav-bar----------*/
+    #nav-bar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #nav-bar a{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    /*-------------------about----------*/
+    #about .container .row > div {
+        padding: 118px 20px 56px;
+    }
+    #about .section-title {
+        margin-bottom: 55px;
+    }
+    #personal-info .socials{
+        margin-top: 35px;
+    }
+    /*-------------------job-info----------*/
+    #job-info {
+        padding-top: 48px;
+    }
+    .job-item .icon {
+        font-size: 54px;
+    }
+    /*-------------------certificate----------*/
+    .item-cert h3 {
+        font-size: 15px;
+    }
+    /*-------------------project----------*/
+    .project-title{
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+        letter-spacing: 0.9px;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    /*-------------------banner----------*/
+    #banner {
+        height: 700px;
+    }
+    #banner h1 {
+        font-size: 36px;
+    }
+    /*-------------------nav-bar----------*/
+    #nav-bar a {
+        padding: 10px 20px;
+    }
+    /*-------------------about----------*/
+    #about .container .row > div {
+        padding: 115px 20px 55px;
+    }
+    #about .section-title {
+        margin-bottom: 50px;
+    }
+    #personal-info .socials {
+        margin-top: 30px;
+        gap: 15px;
+    }
+    /*-------------------job-info----------*/
+    #job-info {
+        padding-top: 45px;
+    }
+    #job-info .job-item {
+        padding: 55px 35px;
+        row-gap: 45px;
+        margin-bottom: 30px;
+    }
+    #job-info .list-dots {
+        padding-top: 35px;
+    }
+    .list-dots .item-content:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .list-dots .item-content {
+        padding-left: 35px;
+    }
+    .job-item h3 {
+        font-size: 17px;
+    }
+    .job-item .icon {
+        font-size: 53px;
+    }
+    .list-favourite i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 23px;
+    }
+    /*-------------------certificate----------*/
+    #certificate .container {
+        padding: 75px 12px 95px;
+    }
+    #certificate .section-title {
+        margin-bottom: 45px;
+    }
+    #certificate .item-cert {
+        margin-bottom: 45px;
+        padding: 0 15px 25px;
+    }
+    .item-cert h3 {
+        margin-bottom: 15px;
+    }
+    /*-------------------project----------*/
+    #project .container {
+        padding-top: 85px;
+        padding-bottom: 55px;
+    }
+    #project .section-title {
+        margin-bottom: 84px;
+    }
+    .project-title {
+        padding: 22px 23px;
+        font-size: 15px;
+    }
+    .project-meta{
+        padding-left: 23px;
+        padding-right: 23px;
+        gap: 12px;
+        font-size: 12px;
+    }
+    .project-meta .year {
+        width: 62px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+    }
+    .project-table td, .project-table th{
+        line-height: 22px;
+    }
+    .list-socials i {
+        font-size: 35px;
+    }
+}
+@media (max-width: 360px) {
+    body {
+        letter-spacing: 0.6px;
+    }
+    /*-------------------banner----------*/
+    #banner h1 {
+        font-size: 35px;
+    }
+}
